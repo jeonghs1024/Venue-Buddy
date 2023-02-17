@@ -1,7 +1,7 @@
 
-var googleApiKey = "AIzaSyDdRMo-lh3_1v4axo2JEIer16-_L3_9jts"
+var googleApiKey = "YOUR_GOOGLE_API_KEY"
 
-var seatGeekApi = 'MjQ5NjgyNzZ8MTYzOTcwODEzMS4yNTQzNDE0'
+var seatGeekApi = 'YOUR_SEATGEEK_API_KEY'
 
 var locationBtn = document.querySelector("#search-btn")
 
