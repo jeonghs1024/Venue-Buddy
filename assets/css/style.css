@@ -1,5 +1,9 @@
+@font-face {
+  font-family: "BigNoodleTitling";
+  src: url(../../font/big_noodle_titling.woff);
+}
 * {
-  font-family: sans-serif;
+  font-family: "BigNoodleTitling", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
