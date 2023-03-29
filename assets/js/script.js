@@ -19,7 +19,6 @@ function getLocation(lat, long, page) {
     .then((zipCode) => fetchSeatGeekData(zipCode, radius, page))
     .then((data) => buildTable(data));
 }
-
 function fetchZipCode(lat, long) {
   return fetch(
     `https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${long}&key=${googleApiKey}`
@@ -27,7 +26,7 @@ function fetchZipCode(lat, long) {
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
-      return data.results[0].address_components[6].long_name;
+      return data.results[0].address_components[7].long_name;
     });
 }
 
