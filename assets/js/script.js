@@ -1,6 +1,6 @@
-var googleApiKey = "AIzaSyBBtqQiIllm7aIk_MiybmFbhXx-PJGR_3s";
+var googleApiKey = "";
 
-var seatGeekApi = "MzI2Mzc1ODZ8MTY3OTc3MzI1OC40NDM5NDI1";
+var seatGeekApi = "";
 
 var locationBtn = document.querySelector("#search-btn");
 
