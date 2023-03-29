@@ -8,4 +8,4 @@ I have not yet developed localStorage utilization. I plan to add the ability to 
 ![alt text](./assets/images/venuebuddy.jpg)
 
 
-https://venue-buddy.herokuapp.com/
+https://venuebuddy.herokuapp.com/
